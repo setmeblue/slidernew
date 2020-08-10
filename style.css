@@ -1,14 +1,17 @@
-* {
-  box-sizing:border-box;
-  -webkit-tap-highlight-color:transparent
-}
+@charset "UTF-8";
+/* ellipsis */
+/* thumbnail background */
+/* break point */
 
-html, body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%
-}
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+body {
+  margin: 0; }
 
 .marshall-slider {
   position: relative;
@@ -123,20 +126,6 @@ html, body {
   transform: rotate(45deg)
 }
 
-@charset "UTF-8";
-/* ellipsis */
-/* thumbnail background */
-/* break point */
-
-/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
-html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
-
-body {
-  margin: 0; }
 
 h1 {
   font-size: 2em;
@@ -2724,4 +2713,3 @@ aside .tag_board {
     margin: 200px 0 90px 0;
   }
 }
-
